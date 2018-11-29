@@ -14,4 +14,8 @@ public class NavigationHelper extends HelperBase {
         click(By.linkText("groups"));
     }
 
+    public void gotoMainPage() {
+        click(By.id("logo"));
+    }
+
 }
